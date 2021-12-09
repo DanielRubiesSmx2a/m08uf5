@@ -1,0 +1,9 @@
+body {font-family:sans-serif;}
+h1 {color:#333; font-size:20px;} 
+h2 {color:#666; font-size:16px;} 
+p, li {color:#000; font-size:12px;}
+ol {font-family: Arial;}
+ul {font-family: Arial;}
+th {background-color:aliceblue;}
+td {background-color:deepskyblue;}
+tr {background-color:aliceblue;}
