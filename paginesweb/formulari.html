@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+	<head>
+
+        <link rel="stylesheet" type="text/css" href="/home/ubuntu/css/formulari.css">
+
+		    <title>Formulari</title>
+
+	</head>
+	
+		<body>
+
+			<h2 align="center">Curriculum</h2>
+
+            <fieldset style="width:600px">
+
+            <form >
+
+            <fieldset class="InformacionBasica"  style="width:600px">
+
+                <legend><b><u>Información Basica</u></b></legend>
+                <p>
+
+                <label>Nombre</label>
+                <br>
+
+                <input type="text" name="Nombre" value="" placeholder="tunombre"/> 
+
+            
+                <br>
+            
+                <label>Altura en centimetros</label>
+                <br>
+
+                <input type="number" list="tickmarks" value=""/>      
+            
+                <br>
+
+                <label>email</label>
+                <br>
+                
+                <input type="text" name="contraseña" value="" placeholder="tuemail@dominio.con"/>      
+            
+                <br>
+
+                <label>Fecha de nacimiento:</label>
+                <br>
+                
+                <input type="date" name="Nacimiento" step="" min=""/>
+          
+            </fieldset>
+
+
+            <fieldset class="Nacionalidad" style="width:600px">
+
+
+                <legend><u><b>Nacionalidad</b></u></legend>
+
+                <input type="radio" name="Idioma" value="Española"/> Española
+                <input type="radio" name="Idioma" value="Comunitario(UE)"/> Comunitario(UE) 
+                <input type="radio" name="Idioma" value="No comunitario"/> No comunitario
+
+            </fieldset>
+
+
+            <fieldset class="Estudios" style="width:600px">
+
+
+                <legend><u><b>Estudios</b></u></legend>
+
+                <select name="Estudios">
+
+                    <option>GM</option>
+                    
+                    <option>GS</option>
+                    
+                    </select>
+                
+            </fieldset>
+                
+
+            <fieldset class="Idiomas" style="width:600px">
+                
+                <legend><u><b>Idiomas</b></u></legend>
+
+                <input type="checkbox" name="Catalán" value="Catalán" /> Catalán
+                <input type="checkbox" name="Castellano" value="Castellano" /> Castellano
+                <input type="checkbox" name="Ingles" value="Ingles" /> Ingles
+                <input type="checkbox" name="Chino" value="rh" /> Chino
+                <br>
+
+            </fieldset>
+
+            <fieldset class="EnviaryCancelar" style="width:600px">
+                
+                <input type="submit" value="Enviar" />
+                <input type="submit" value="Cancelar" />
+
+            </fieldset>
+
+        </form>
+
+    </body>
+
+</html>
